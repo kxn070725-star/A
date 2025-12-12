@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { WeaveCanvas } from './components/WeaveCanvas';
 import { ControlPanel } from './components/ControlPanel';
@@ -5,7 +6,7 @@ import { SimulationConfig } from './types';
 
 const App: React.FC = () => {
   const [config, setConfig] = useState<SimulationConfig>({
-    particleCount: 60000, // Increased for WebGL (Can handle 100k+)
+    particleCount: 15000, 
     connectionDistance: 45, 
     speed: 0.2, 
     interactive: true,
@@ -45,11 +46,11 @@ const App: React.FC = () => {
            </div>
            <div className="flex items-center gap-2">
              <span className="w-2 h-2 rounded-full bg-cyan-400"></span>
-             <span className="font-bold text-cyan-400">OPEN HAND:</span> Warp Field
+             <span className="font-bold text-cyan-400">OPEN HAND:</span> Wave Flow
            </div>
            <div className="flex items-center gap-2">
              <span className="w-2 h-2 rounded-full bg-purple-500"></span>
-             <span className="font-bold text-purple-500">TWO HANDS:</span> Hyper-Knot
+             <span className="font-bold text-purple-500">PINCH:</span> Tension
            </div>
         </div>
       </div>
