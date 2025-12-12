@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Copy of Copy of Digital Weave",
+  "description": "An interactive, generative digital weaving network visualization using D3.js and React.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
